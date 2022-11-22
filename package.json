@@ -1,0 +1,32 @@
+{
+    "name": "Twitch-Chatbot",
+    "version": "1.0.0",
+    "description": "Twitch node.js chat bot",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/justusmbuvi/Twitch-Chatbot-in-Node.js.git"
+    },
+    "keywords": [
+        "Twitch",
+        "node.js",
+        "chat",
+        "bot"
+    ],
+    "author": "Justus_Mbuvi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/justusmbuvi/Twitch-Chatbot-in-Node.js/issues"
+    },
+    "homepage": "https://github.com/justusmbuvi/Twitch-Chatbot-in-Node.js#readme",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "request": "^2.88.2",
+        "tmi.js": "^1.8.3",
+        "url": "^0.11.0"
+    }
+}
